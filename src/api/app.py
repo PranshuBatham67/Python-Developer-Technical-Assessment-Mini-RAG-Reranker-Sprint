@@ -33,11 +33,8 @@ answerer = None
 pdf_processor = None
 embedder = None
 
-# Initialize components on first request
-@app.before_first_request
-def initialize_components():
-    """Initialize system components before first request"""
-    init_components()
+# Initialize components immediately
+init_components()
 
 def init_components():
     """Initialize system components"""
