@@ -1,0 +1,406 @@
+{
+  "🔥 Basic Safety Concepts (Test Core Understanding)": [
+    {
+      "id": 1,
+      "question": "What is the definition of industrial safety?",
+      "difficulty": "easy",
+      "expected_keywords": ["protection", "workers", "hazards", "accidents", "workplace"]
+    },
+    {
+      "id": 2,
+      "question": "What is a safety function?",
+      "difficulty": "easy",
+      "expected_keywords": ["control", "prevent", "risk", "hazard", "protective action"]
+    },
+    {
+      "id": 3,
+      "question": "What does PPE stand for?",
+      "difficulty": "easy",
+      "expected_keywords": ["personal protective equipment", "gear", "safety", "clothing", "protection"]
+    },
+    {
+      "id": 4,
+      "question": "Define risk assessment in workplace safety",
+      "difficulty": "medium",
+      "expected_keywords": ["identify hazards", "evaluate risk", "control measures", "likelihood", "severity"]
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of machine guarding?",
+      "difficulty": "medium",
+      "expected_keywords": ["protect operators", "prevent contact", "hazards", "injury", "safety barrier"]
+    }
+  ],
+
+  "🛡️ ISO Standards & Regulations (Test Standards Knowledge)": [
+    {
+      "id": 6,
+      "question": "What are the Performance Levels (PL) in ISO 13849-1?",
+      "difficulty": "hard",
+      "expected_keywords": ["a to e", "safety performance", "probability of failure", "control system", "standard"]
+    },
+    {
+      "id": 7,
+      "question": "What is the definition of a safety function according to ISO 13849-1?",
+      "difficulty": "hard",
+      "expected_keywords": ["ISO 13849-1", "control system", "safety-related", "risk reduction"]
+    },
+    {
+      "id": 8,
+      "question": "What are Category 1 safety circuits?",
+      "difficulty": "hard",
+      "expected_keywords": ["basic safety", "ISO 13849-1", "reliability", "single fault", "designated components"]
+    },
+    {
+      "id": 9,
+      "question": "What is the difference between Type A and Type B standards?",
+      "difficulty": "hard",
+      "expected_keywords": ["general safety", "specific safety", "machinery", "ISO", "scope difference"]
+    },
+    {
+      "id": 10,
+      "question": "What is SIL (Safety Integrity Level)?",
+      "difficulty": "hard",
+      "expected_keywords": ["IEC 61508", "safety function", "risk reduction", "integrity", "levels 1-4"]
+    }
+  ],
+
+  "🤖 Robot Safety (Test Specialized Knowledge)": [
+    {
+      "id": 11,
+      "question": "What are the requirements for emergency stop devices in robotics?",
+      "difficulty": "medium",
+      "expected_keywords": ["ISO 10218", "emergency stop", "manual control", "stop function", "safety"]
+    },
+    {
+      "id": 12,
+      "question": "What is collaborative robot safety?",
+      "difficulty": "medium",
+      "expected_keywords": ["cobots", "human-robot interaction", "force limits", "sensors", "ISO 10218"]
+    },
+    {
+      "id": 13,
+      "question": "What are the main hazards associated with industrial robots?",
+      "difficulty": "medium",
+      "expected_keywords": ["impact", "crushing", "trapping", "electrical hazards", "unexpected movement"]
+    },
+    {
+      "id": 14,
+      "question": "What is ISO 10218 about?",
+      "difficulty": "medium",
+      "expected_keywords": ["robot safety", "industrial robots", "ISO 10218", "design", "operation"]
+    },
+    {
+      "id": 15,
+      "question": "What are robot safeguarding methods?",
+      "difficulty": "medium",
+      "expected_keywords": ["barriers", "light curtains", "sensors", "fencing", "safeguards"]
+    }
+  ],
+
+  "🔒 Lockout/Tagout (LOTO) (Test Procedural Knowledge)": [
+    {
+      "id": 16,
+      "question": "What is lockout/tagout and when should it be used?",
+      "difficulty": "medium",
+      "expected_keywords": ["energy control", "maintenance", "prevent start-up", "LOTO", "safety procedure"]
+    },
+    {
+      "id": 17,
+      "question": "What are the six steps of lockout tagout procedure?",
+      "difficulty": "medium",
+      "expected_keywords": ["prepare", "shutdown", "isolate", "lockout", "release stored energy", "verify isolation"]
+    },
+    {
+      "id": 18,
+      "question": "Who can remove lockout devices?",
+      "difficulty": "easy",
+      "expected_keywords": ["authorized employee", "installer", "trained person"]
+    },
+    {
+      "id": 19,
+      "question": "What is the difference between lockout and tagout?",
+      "difficulty": "easy",
+      "expected_keywords": ["lock", "physical barrier", "tag", "warning only", "energy isolation"]
+    },
+    {
+      "id": 20,
+      "question": "When is group lockout necessary?",
+      "difficulty": "medium",
+      "expected_keywords": ["multiple workers", "shared equipment", "team maintenance", "safety"]
+    }
+  ],
+
+  "⚙️ Machine Safety & Guarding (Test Equipment Safety)": [
+    {
+      "id": 21,
+      "question": "What are the main types of machine guarding?",
+      "difficulty": "easy",
+      "expected_keywords": ["fixed", "interlocked", "adjustable", "self-adjusting", "barriers"]
+    },
+    {
+      "id": 22,
+      "question": "What is the minimum opening size for safety guards?",
+      "difficulty": "medium",
+      "expected_keywords": ["guard openings", "body part entry", "standards", "dimensions"]
+    },
+    {
+      "id": 23,
+      "question": "What are interlocked guards?",
+      "difficulty": "medium",
+      "expected_keywords": ["safety switch", "stop machine", "access", "interlock"]
+    },
+    {
+      "id": 24,
+      "question": "What is a light curtain in machine safety?",
+      "difficulty": "medium",
+      "expected_keywords": ["photoelectric", "sensor", "safety", "stop machine", "detection"]
+    },
+    {
+      "id": 25,
+      "question": "What are the requirements for point of operation guarding?",
+      "difficulty": "hard",
+      "expected_keywords": ["hands", "body", "hazards", "guarding", "ANSI/OSHA"]
+    }
+  ],
+
+  "🚨 Emergency Procedures (Test Crisis Response)": [
+    {
+      "id": 26,
+      "question": "What are the requirements for emergency stop systems?",
+      "difficulty": "medium",
+      "expected_keywords": ["manual control", "stop category", "safety standard", "response time"]
+    },
+    {
+      "id": 27,
+      "question": "When should emergency eyewash stations be used?",
+      "difficulty": "easy",
+      "expected_keywords": ["chemical exposure", "eyes", "immediate wash", "safety equipment"]
+    },
+    {
+      "id": 28,
+      "question": "What is the response time for emergency stop devices?",
+      "difficulty": "medium",
+      "expected_keywords": ["milliseconds", "immediate stop", "time to de-energize", "standard compliance"]
+    },
+    {
+      "id": 29,
+      "question": "What are emergency evacuation procedures?",
+      "difficulty": "medium",
+      "expected_keywords": ["exit routes", "assembly point", "alarms", "safe evacuation"]
+    },
+    {
+      "id": 30,
+      "question": "What is the difference between emergency stop and emergency off?",
+      "difficulty": "medium",
+      "expected_keywords": ["E-stop", "controlled stop", "E-off", "immediate shutdown"]
+    }
+  ],
+
+  "📊 Risk Assessment & Analysis (Test Analytical Thinking)": [
+    {
+      "id": 31,
+      "question": "What is HAZOP analysis?",
+      "difficulty": "hard",
+      "expected_keywords": ["hazard", "operability", "systematic", "study", "process safety"]
+    },
+    {
+      "id": 32,
+      "question": "What are the steps in risk assessment?",
+      "difficulty": "medium",
+      "expected_keywords": ["identify hazards", "evaluate risks", "control", "review"]
+    },
+    {
+      "id": 33,
+      "question": "What is the risk matrix method?",
+      "difficulty": "medium",
+      "expected_keywords": ["likelihood", "severity", "matrix", "risk level"]
+    },
+    {
+      "id": 34,
+      "question": "What is ALARP principle?",
+      "difficulty": "hard",
+      "expected_keywords": ["as low as reasonably practicable", "risk reduction", "cost", "safety"]
+    },
+    {
+      "id": 35,
+      "question": "How do you calculate risk levels?",
+      "difficulty": "medium",
+      "expected_keywords": ["likelihood", "severity", "probability", "risk equation"]
+    }
+  ],
+
+  "📚 Training & Compliance (Test Knowledge Transfer)": [
+    {
+      "id": 36,
+      "question": "What training is required for new employees?",
+      "difficulty": "easy",
+      "expected_keywords": ["orientation", "safety rules", "emergency", "procedures"]
+    },
+    {
+      "id": 37,
+      "question": "What are competency requirements for safety personnel?",
+      "difficulty": "medium",
+      "expected_keywords": ["training", "certification", "skills", "experience"]
+    },
+    {
+      "id": 38,
+      "question": "How often should safety training be refreshed?",
+      "difficulty": "easy",
+      "expected_keywords": ["annually", "periodically", "regulations", "updates"]
+    },
+    {
+      "id": 39,
+      "question": "What is the role of safety committees?",
+      "difficulty": "medium",
+      "expected_keywords": ["review safety", "recommendations", "worker involvement", "compliance"]
+    },
+    {
+      "id": 40,
+      "question": "What documentation is required for safety training?",
+      "difficulty": "medium",
+      "expected_keywords": ["attendance", "certificates", "training records", "content"]
+    }
+  ],
+
+  "🔧 Specific Equipment Safety (Test Equipment Knowledge)": [
+    {
+      "id": 41,
+      "question": "What are the safety requirements for cranes?",
+      "difficulty": "medium",
+      "expected_keywords": ["load limits", "operator training", "inspections", "maintenance"]
+    },
+    {
+      "id": 42,
+      "question": "What is confined space entry procedure?",
+      "difficulty": "hard",
+      "expected_keywords": ["permit", "air testing", "monitoring", "safety harness", "rescue plan"]
+    },
+    {
+      "id": 43,
+      "question": "What are the requirements for fall protection?",
+      "difficulty": "medium",
+      "expected_keywords": ["harness", "lifeline", "guardrails", "height safety"]
+    },
+    {
+      "id": 44,
+      "question": "What is arc flash protection?",
+      "difficulty": "hard",
+      "expected_keywords": ["PPE", "electrical hazards", "NFPA 70E", "arc rating"]
+    },
+    {
+      "id": 45,
+      "question": "What are the safety requirements for conveyors?",
+      "difficulty": "medium",
+      "expected_keywords": ["guards", "emergency stop", "training", "maintenance"]
+    }
+  ],
+
+  "❌ Edge Cases & Complex Scenarios (Test System Limits)": [
+    {
+      "id": 46,
+      "question": "What happens when multiple safety systems conflict?",
+      "difficulty": "hard",
+      "expected_keywords": ["priority", "fail-safe", "risk analysis", "coordination"]
+    },
+    {
+      "id": 47,
+      "question": "How do you handle safety in temporary installations?",
+      "difficulty": "hard",
+      "expected_keywords": ["temporary", "risk assessment", "controls", "compliance"]
+    },
+    {
+      "id": 48,
+      "question": "What are the safety requirements for prototype machines?",
+      "difficulty": "hard",
+      "expected_keywords": ["testing", "risk assessment", "temporary safeguards", "ISO compliance"]
+    },
+    {
+      "id": 49,
+      "question": "What is functional safety in automotive applications?",
+      "difficulty": "hard",
+      "expected_keywords": ["ISO 26262", "safety integrity", "systems", "electronics", "vehicles"]
+    },
+    {
+      "id": 50,
+      "question": "How do you ensure safety in legacy equipment upgrades?",
+      "difficulty": "hard",
+      "expected_keywords": ["retrofit", "risk assessment", "compliance", "modern safeguards"]
+    }
+  ],
+
+  "🧠 Advanced Technical Questions (Test Deep Understanding)": [
+    {
+      "id": 51,
+      "question": "What is the relationship between MTBF and safety integrity?",
+      "difficulty": "expert",
+      "expected_keywords": ["mean time between failures", "reliability", "SIL", "system integrity"]
+    },
+    {
+      "id": 52,
+      "question": "How do you calculate diagnostic coverage?",
+      "difficulty": "expert",
+      "expected_keywords": ["faults", "detected", "undetected", "percentage", "safety analysis"]
+    },
+    {
+      "id": 53,
+      "question": "What is the difference between fail-safe and fault-tolerant design?",
+      "difficulty": "expert",
+      "expected_keywords": ["fail-safe", "shutdown", "fault-tolerant", "continue operation", "design"]
+    },
+    {
+      "id": 54,
+      "question": "What are common cause failures in safety systems?",
+      "difficulty": "expert",
+      "expected_keywords": ["simultaneous failures", "shared cause", "redundancy", "reliability"]
+    },
+    {
+      "id": 55,
+      "question": "How do you validate safety-critical software?",
+      "difficulty": "expert",
+      "expected_keywords": ["testing", "verification", "validation", "standards", "documentation"]
+    }
+  ],
+
+  "🔍 Ambiguous/Challenging Questions (Test AI Robustness)": [
+    {
+      "id": 56,
+      "question": "What should I do if something goes wrong?",
+      "difficulty": "tricky",
+      "expected_keywords": ["report", "stop work", "emergency procedures", "safety officer"]
+    },
+    {
+      "id": 57,
+      "question": "Are robots dangerous?",
+      "difficulty": "tricky",
+      "expected_keywords": ["context-dependent", "hazards", "controls", "collaborative", "risk"]
+    },
+    {
+      "id": 58,
+      "question": "What is the best safety standard?",
+      "difficulty": "tricky",
+      "expected_keywords": ["depends", "industry", "application", "ISO", "IEC", "context"]
+    },
+    {
+      "id": 59,
+      "question": "How much does safety cost?",
+      "difficulty": "tricky",
+      "expected_keywords": ["investment", "prevention", "savings", "depends on risk", "context"]
+    },
+    {
+      "id": 60,
+      "question": "What color should safety equipment be?",
+      "difficulty": "tricky",
+      "expected_keywords": ["yellow", "red", "green", "OSHA", "color codes"]
+    }
+  ],
+
+  "🧪 Load Test (Complex)": [
+    {
+      "id": 61,
+      "question": "Explain the complete risk assessment process including HAZOP analysis, safety integrity levels, and performance level calculations according to ISO 13849-1",
+      "difficulty": "expert",
+      "expected_keywords": ["risk assessment", "HAZOP", "SIL", "PL", "ISO 13849-1", "safety integrity", "performance levels"]
+    }
+  ]
+}

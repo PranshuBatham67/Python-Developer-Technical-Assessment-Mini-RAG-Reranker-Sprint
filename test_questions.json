@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "question": "What are the main types of machine guarding?",
+    "difficulty": "easy",
+    "expected_keywords": ["fixed", "interlocked", "adjustable", "self-adjusting", "safety devices"]
+  },
+  {
+    "id": 2,
+    "question": "What is the definition of a safety function according to ISO 13849-1?",
+    "difficulty": "medium",
+    "expected_keywords": ["safety function", "ISO 13849", "control", "machinery", "hazard"]
+  },
+  {
+    "id": 3,
+    "question": "What is lockout/tagout and when should it be used?",
+    "difficulty": "medium",
+    "expected_keywords": ["lockout", "tagout", "energy", "maintenance", "hazardous"]
+  },
+  {
+    "id": 4,
+    "question": "What are the Performance Levels (PL) in ISO 13849-1?",
+    "difficulty": "hard",
+    "expected_keywords": ["performance level", "PL", "a", "b", "c", "d", "e"]
+  },
+  {
+    "id": 5,
+    "question": "What are the requirements for emergency stop devices?",
+    "difficulty": "medium",
+    "expected_keywords": ["emergency stop", "red", "mushroom", "manual", "reset"]
+  },
+  {
+    "id": 6,
+    "question": "What is Category 4 according to ISO 13849-1?",
+    "difficulty": "hard",
+    "expected_keywords": ["category 4", "redundancy", "monitoring", "fault", "detection"]
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between SIL and PL?",
+    "difficulty": "hard",
+    "expected_keywords": ["SIL", "PL", "IEC 61508", "ISO 13849", "probability"]
+  },
+  {
+    "id": 8,
+    "question": "What are the basic principles of risk assessment for machinery?",
+    "difficulty": "medium",
+    "expected_keywords": ["risk assessment", "hazard", "identification", "estimation", "evaluation"]
+  }
+]
