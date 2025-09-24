@@ -23,7 +23,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize Flask app
-app = Flask(__name__, 
+app = Flask(__name__,
             static_folder='../../static',
             static_url_path='/static')
 CORS(app)
@@ -32,6 +32,12 @@ CORS(app)
 answerer = None
 pdf_processor = None
 embedder = None
+
+# Initialize components on first request
+@app.before_first_request
+def initialize_components():
+    """Initialize system components before first request"""
+    init_components()
 
 def init_components():
     """Initialize system components"""
