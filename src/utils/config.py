@@ -50,7 +50,7 @@ class Config:
     CHUNK_OVERLAP = 50       # How much chunks overlap (words)
     
     # API settings
-    FLASK_HOST = os.getenv("FLASK_HOST", "localhost")
+    FLASK_HOST = os.getenv("FLASK_HOST", "0.0.0.0")
     FLASK_PORT = int(os.getenv("FLASK_PORT", "5000"))
     FLASK_DEBUG = os.getenv("FLASK_DEBUG", "True").lower() == "true"
     
@@ -85,8 +85,12 @@ class Config:
             "keyword_weight": cls.KEYWORD_WEIGHT,
             "top_k_results": cls.TOP_K_RESULTS,
             "confidence_threshold": cls.CONFIDENCE_THRESHOLD,
-            "chunk_size_range": f"{cls.MIN_CHUNK_SIZE}-{cls.MAX_CHUNK_SIZE} words"
+            "chunk_size_range": f"{cls.MIN_CHUNK_SIZE}-{cls.MAX_CHUNK_SIZE} words",
+            "flask_host": cls.FLASK_HOST,
+            "flask_port": cls.FLASK_PORT,
+            "flask_debug": cls.FLASK_DEBUG,
         }
 
 # Create directories when this module is imported
+
 Config.ensure_dirs_exist()
