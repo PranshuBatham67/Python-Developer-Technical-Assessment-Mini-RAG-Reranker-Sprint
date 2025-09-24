@@ -6,6 +6,8 @@ A question-answering system for industrial safety documentation using BM25 searc
 
 This project implements a document retrieval and question-answering system specifically designed for industrial safety manuals. The system processes PDF documents, extracts text chunks, and uses a combination of BM25 keyword search and TF-IDF embeddings to provide accurate answers to safety-related questions.
 
+## Deployed URL
+https://python-developer-technical-assessment.onrender.com
 ## Architecture
 
 - **PDF Processing**: Extracts and chunks text from safety documentation
@@ -107,5 +109,6 @@ I also learned the importance of proper text preprocessing for technical documen
 - `setup.ps1`: Environment setup
 
 ---
+
 
 *This system demonstrates practical application of information retrieval techniques for domain-specific document search, with emphasis on accuracy, performance, and user experience.*
