@@ -33,9 +33,6 @@ answerer = None
 pdf_processor = None
 embedder = None
 
-# Initialize components immediately
-init_components()
-
 def init_components():
     """Initialize system components"""
     global answerer, pdf_processor, embedder
@@ -76,6 +73,9 @@ def init_components():
     except Exception as e:
         logger.error(f"Unexpected error during component initialization: {e}")
         traceback.print_exc()
+
+# Initialize components immediately
+init_components()
 
 @app.route('/')
 def home():
