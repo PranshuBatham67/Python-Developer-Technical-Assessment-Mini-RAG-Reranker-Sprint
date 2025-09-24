@@ -36,18 +36,43 @@ embedder = None
 def init_components():
     """Initialize system components"""
     global answerer, pdf_processor, embedder
-    
+
     try:
         logger.info("Initializing QA Service components")
-        
-        answerer = SimpleAnswerGenerator()
-        pdf_processor = PDFProcessor()
-        embedder = SimpleEmbeddingGenerator()
-        
-        logger.info("All components initialized successfully")
-        
+
+        # Initialize answerer with error handling
+        try:
+            answerer = SimpleAnswerGenerator()
+            logger.info("Answerer initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize answerer: {e}")
+            answerer = None
+
+        # Initialize PDF processor with error handling
+        try:
+            pdf_processor = PDFProcessor()
+            logger.info("PDF processor initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize PDF processor: {e}")
+            pdf_processor = None
+
+        # Initialize embedder with error handling
+        try:
+            embedder = SimpleEmbeddingGenerator()
+            logger.info("Embedder initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize embedder: {e}")
+            embedder = None
+
+        # Check if all components initialized successfully
+        if answerer and pdf_processor and embedder:
+            logger.info("All components initialized successfully")
+        else:
+            logger.warning("Some components failed to initialize. Check logs above.")
+
     except Exception as e:
-        logger.error(f"Failed to initialize components: {e}")
+        logger.error(f"Unexpected error during component initialization: {e}")
+        traceback.print_exc()
 
 @app.route('/')
 def home():
