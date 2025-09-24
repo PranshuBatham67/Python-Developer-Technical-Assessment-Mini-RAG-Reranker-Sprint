@@ -36,9 +36,16 @@ def main():
     print(f"\nWeb interface: http://localhost:5000")
     print("Press Ctrl+C to stop the server")
     print("-" * 50)
+    
+    # Use Render's PORT environment variable if available
+    port = int(os.environ.get('PORT', Config.FLASK_PORT))
+    host = '0.0.0.0'  # Required for Render deployment
+
+    print(f"Starting server on {host}:{port}")
+
     app.run(
-        host=Config.FLASK_HOST,
-        port=Config.FLASK_PORT,
+        host=host,
+        port=port,
         debug=Config.FLASK_DEBUG
     )
 
